@@ -1,3 +1,27 @@
+/*
+ * Course: Arduino Based Fire Alarm System
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
+/*
+ * Course: Arduino Based Fire Alarm System
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
+/*
+ * Course: Arduino Based Fire Alarm System
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for status messages
 #include <unistd.h> // Include POSIX sleep for timing
 
@@ -10,6 +34,7 @@ static int led_on = 0; // Initialize alarm LED state
 static const int SMOKE_THRESHOLD = 5; // Define smoke threshold
 
 // Program entry point implementing alarm logic
+// Main routine: orchestrates the arduino based fire alarm system scenario
 int main(void) { // Begin main function
   printf("Arduino Based Fire Alarm System (IoT Safety)\n"); // Print header
   for (int t = 0; t < 12; ++t) { // Loop over 12 samples
